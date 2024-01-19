@@ -2,8 +2,8 @@
 layout: post
 title:  时序数据库
 date:   2024-01-17 00:00:00 +0800
-categories: 基础知识
-tag: 智慧矿山
+categories: 智慧矿山
+tag: 数据库
 ---
 
 
@@ -131,7 +131,7 @@ TimescaleDB 还支持 SQL，可以与 PostgreSQL 生态系统进行集成。Time
 
 开源
 
-OpenTSDB 是一种开源的分布式时序数据库。支持高效的数据存储和查询，同时具有灵活的数据可视化和分析功能。
+OpenTSDB 是基于HBase开发的一种开源的分布式时序数据库。支持高效的数据存储和查询，同时具有灵活的数据可视化和分析功能。
 
 OpenTSDB 的特点是可扩展性和高性能，它可以在多个节点上运行，并支持水平扩展，以处理更大的数据集。OpenTSDB 还支持多种数据格式和协议，包括 JSON、CSV、Graphite 和 Collectd 等，可以与多种数据源进行集成。底层使用 Hbase 作为其分布式存储引擎，采用的也是 LSM tree
 
