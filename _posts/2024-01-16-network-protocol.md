@@ -2,7 +2,7 @@
 layout: post
 title:  网络协议
 date:   2024-01-16 00:00:00 +0800
-categories: 基础知识
+categories: 网络
 tag: 学习
 
 ---
@@ -14,7 +14,7 @@ tag: 学习
 
 
 
-## 视频直播相关协议
+## 视频直播相关
 
 ### RTMP
 
@@ -165,3 +165,45 @@ RESTful是一种[网络应用程序](https://www.zhihu.com/search?q=网络应用
 
 
 网络协议 https://blog.csdn.net/qq_35512802/article/details/129433099
+
+
+
+## 物联网
+
+### Modbus
+
+应用于电子控制器上的一种通用语言，通过此协议，可以实现控制器相互之间或通过网络实现通信
+
+
+
+### CoAP
+
+全称：Constrained Application Protocol，约束应用协议
+
+基于 请求/响应 模型，默认运行在UDP
+
+CoAP协议是HTTP协议的简化版，通过4个请求方法（GET, PUT, POST, DELETE）对服务器端资源进行操作
+
+
+
+### MQTT
+
+全称：Message Queuing Telemetry Transport，消息队列遥测传输协议
+
+基于 发布/订阅 模式的“轻量级”通讯协议，该协议构建于TCP/IP协议上
+
+MQTT最大优点在于，用极少的代码和有限的带宽，为连接远程设备提供实时可靠的消息服务。作为一种低开销、低带宽占用的即时通讯协议，使其在物联网、小型设备、移动应用等方面有较广泛的应用
+
+![MQTT消息发送]({{ '/styles/images/network/MQTT消息发送.jpg' | prepend: site.baseurl  }})
+
+
+
+### AMQP
+
+全称：Advanced Message Queuing Protocol，高级消息队列协议
+
+AMQP的主要特征是面向消息、队列、路由（包括点对点和发布/订阅）、可靠性、安全。
+
+RabbitMQ是一个开源的AMQP实现，服务器端用Erlang语言编写，支持多种客户端
+
+![AMQP模型]({{ '/styles/images/network/AMQP模型.png' | prepend: site.baseurl  }})
