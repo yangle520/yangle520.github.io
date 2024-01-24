@@ -97,6 +97,57 @@ tag: 解决方案
 
 
 
+## 流媒体服务器
+
+流媒体服务器是搭建视频网站平台和各类在线视频应用系统的基础支撑系统，实现将视频存储、视频转码、视频播出、协议复用、终端适配、大并发播出等的工作集中处理，这样在搭建视频网站时就可以只关注业务细节而不用再去处理与视频相关的诸多技术细节，从而实现提高项目实施效率、降低项目实施风险的目标。
+
+
+
+### NTV Media Server G3
+
+单节点突破5000并发，直播、点播、转码、录播、防盗链一站解决。RTMP、HTTP、HLS等多协议播出，面向PC、智能手机、微信公众号和小程序等提供流畅的视频播出。成熟的商用系统，自主产权，稳定可靠，教育、传媒、科研、政府、企业，超过1000家客户的选择
+
+Linux操作系统，性能极高，单节点并发超5000，系统成熟，接口和文档都比较完善，有较大的用户群，售后服务好
+
+官网：http://www.ruiboyun.com/
+
+说明文档：http://pro8eb17329.pic3.ysjianzhan.cn/upload/ntv_media_server_v3.pdf
+
+
+
+### Adobe Flash Media Server
+
+官网：https://business.adobe.com/cn/products/primetime/adobe-media-server.html
+
+
+
+### Ti Top Streamer
+
+官网：https://www.ttstream.com/
+
+说明文档：https://www.ttstream.com/document
+
+
+
+
+
+### 常见开源服务
+
+| 产品     | Red5                                | jitsi                      | EasyDarwin                               | ZLMediaKit                                                   | SRS                             | Nginx_RTMP |
+| -------- | ----------------------------------- | -------------------------- | ---------------------------------------- | ------------------------------------------------------------ | ------------------------------- | ---------- |
+| 收费情况 | 免费、开源                          | 免费、开源                 | 免费、开源                               | 免费、开源                                                   | 免费、开源                      | 免费、开源 |
+| 语言     | Java                                | Java                       | Go                                       | C++                                                          | C++                             |            |
+| 支持平台 | Windows、OS X、Linux、Unix          |                            | Windows、Linux、OS X                     | Windows、Linux、OS X                                         | OS X、Linux                     |            |
+| 支持协议 | HTTP、RTMP、HLS                     |                            | RTSP                                     | RTSP、RTMP、HLS、HTTP-FLV、WebSocket-FLV、GB28181、HTTP-TS、WebSocket-TS、HTTP-fMP4、WebSocket-fMP4、WebRTC |                                 |            |
+| 官网     | http://red5.org/                    | https://desktop.jitsi.org/ |                                          | https://docs.zlmediakit.com/                                 | http://www.ossrs.net/lts/zh-cn/ |            |
+| 代码     | https://github.com/Red5/red5-server | https://github.com/jitsi   | https://github.com/EasyDarwin/EasyDarwin | https://github.com/ZLMediaKit/ZLMediaKit                     | https://github.com/ossrs/srs    |            |
+
+**开源的问题**：没发保障高QOS
+
+
+
+
+
 ## 自研系统
 
 **核心功能**：对接 摄像头、三方监控系统等视频源采集数据，将数据处理后存储，并可实时查看视频，以及回放视频。
@@ -131,22 +182,8 @@ tag: 解决方案
 
 
 
+#### 存储端
 
+NoSQL数据库：MongoDB、Redis、Cassandra
 
-
-
-
-
-### 技术难点
-
-| 难点          | 解决思路 |
-| ------------- | -------- |
-| 数据采集      |          |
-| 录制存储      |          |
-| 视频/音频处理 |          |
-| 视频/音频压缩 |          |
-| 图形处理      |          |
-| CDN分发       |          |
-| 即时通讯      |          |
-| 多屏合一      |          |
-
+归档存储：文件服务器、FTP/NFS

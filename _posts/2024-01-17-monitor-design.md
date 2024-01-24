@@ -137,3 +137,5 @@ https://github.com/kerwincui/FastBee
 官网：https://www.mqttsnet.com/index.html
 
 代码：https://gitee.com/mqttsnet/thinglinks
+
+https://www.zhihu.com/question/31377190/answer/3146607181
