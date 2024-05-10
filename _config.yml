@@ -3,7 +3,8 @@ email: 540363207@qq.com
 author: YangLe
 copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
 baseurl: ""
-url: http://www.yangle520.net
+url: http://yangle520.github.io
+github: https://github.com/yangle520/
 favicon: ""
 yat:
   date_format: "%b %d, %Y"
