@@ -4,15 +4,8 @@ title:  时序数据库
 date:   2024-01-17 00:00:00 +0800
 categories: 智慧矿山
 tag: 数据库
+author: YangLe
 ---
-
-
-
-* content
-{:toc}
-
-
-
 
 
 
@@ -90,7 +83,7 @@ InfluxDB是自研存储，通过LSM tree的存储结构
 
 **Influxdb TSM 结构图**
 
-![Influxdb_TSM_结构图]({{ '/styles/images/database/Influxdb_TSM_结构图.webp' | prepend: site.baseurl  }})
+![Influxdb_TSM_结构图]({{ '/images/database/Influxdb_TSM_结构图.webp' | prepend: site.baseurl  }})
 
 
 

@@ -4,10 +4,10 @@ title:  网络协议
 date:   2024-01-16 00:00:00 +0800
 categories: 网络
 tag: 学习
-
+author: YangLe
 ---
-* content
-{:toc}
+
+
 ## 协议介绍
 
 协议定义了在两个或多个通信实体之间进行交换的报文格式和次序，以及报文发送和/或接收一条报文或其他事件所采取的行动
@@ -194,7 +194,7 @@ CoAP协议是HTTP协议的简化版，通过4个请求方法（GET, PUT, POST, D
 
 MQTT最大优点在于，用极少的代码和有限的带宽，为连接远程设备提供实时可靠的消息服务。作为一种低开销、低带宽占用的即时通讯协议，使其在物联网、小型设备、移动应用等方面有较广泛的应用
 
-![MQTT消息发送]({{ '/styles/images/network/MQTT消息发送.jpg' | prepend: site.baseurl  }})
+![MQTT消息发送]({{ '/images/network/MQTT消息发送.jpg' | prepend: site.baseurl  }})
 
 
 
@@ -206,4 +206,4 @@ AMQP的主要特征是面向消息、队列、路由（包括点对点和发布/
 
 RabbitMQ是一个开源的AMQP实现，服务器端用Erlang语言编写，支持多种客户端
 
-![AMQP模型]({{ '/styles/images/network/AMQP模型.png' | prepend: site.baseurl  }})
+![AMQP模型]({{ '/images/network/AMQP模型.png' | prepend: site.baseurl  }})

@@ -4,12 +4,8 @@ title:  Apache Commons Lang
 date:   2024-03-13 00:00:00 +0800
 categories: Apache Commons
 tag: java类库
+author: YangLe
 ---
-
-
-
-
-
 
 
 **Apache Commons Lang**是对java.lang的扩展，基本上是commons中最常用的工具包
@@ -18,7 +14,7 @@ lang最新版本是2.6，最低要求Java1.2以上，目前官方已不在维护
 
 
 
-![图片]({{ '/styles/images/java/commons_lang.png' | prepend: site.baseurl }})
+![图片]({{ '/images/java/commons_lang.png' | prepend: site.baseurl }})
 
 
 

@@ -4,10 +4,10 @@ title:  视频直播解决方案
 date:   2024-01-15 00:00:00 +0800
 categories: 智慧矿山
 tag: 解决方案
+author: YangLe
 ---
 
-* content
-{:toc}
+
 ## 第三方解决方案
 
 ### 华为云
@@ -35,7 +35,7 @@ tag: 解决方案
 
 **产品架构**
 
-![华为云_视频直播产品架构]({{'/styles/images/media/华为云_视频直播产品架构.png' | prepend: site.baseurl}})
+![华为云_视频直播产品架构]({{'/images/media/华为云_视频直播产品架构.png' | prepend: site.baseurl}})
 
 ------
 
@@ -67,7 +67,7 @@ tag: 解决方案
 
 **产品架构**
 
-![阿里云_视频直播产品架构]({{'/styles/images/media/阿里云_视频直播产品架构.png' | prepend: site.baseurl}})
+![阿里云_视频直播产品架构]({{'/images/media/阿里云_视频直播产品架构.png' | prepend: site.baseurl}})
 
 ------
 
@@ -87,11 +87,11 @@ tag: 解决方案
 
 实时音视频
 
-![腾讯云_实时音视频_产品架构]({{'/styles/images/media/腾讯云_实时音视频_产品架构.svg' | prepend: site.baseurl}})
+![腾讯云_实时音视频_产品架构]({{'/images/media/腾讯云_实时音视频_产品架构.svg' | prepend: site.baseurl}})
 
 云直播
 
-![腾讯云_云直播_产品架构]({{'/styles/images/media/腾讯云_云直播_产品架构.png' | prepend: site.baseurl}})
+![腾讯云_云直播_产品架构]({{'/images/media/腾讯云_云直播_产品架构.png' | prepend: site.baseurl}})
 
 ------
 

@@ -1,26 +1,19 @@
-# Site settings
-name: YangLe Blog
+title: YangLe
 email: 540363207@qq.com
 author: YangLe
-url: http://www.yangle520.com
-resume_site: http://www.yangle520.com/tag/
-github: https://github.com/yangle520/
+copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
 baseurl: ""
-#description: 副标题描述
-#meta_description: 杨乐;个人博客
-motto: YangLe Blog
-banner: 学而不思则罔，思而不学则殆。
-
-#permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
-paginate: 10
-
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
-
-github_username: yangle520
-
-# Build settings
+url: http://yangle520.net
+favicon: ""
+yat:
+  date_format: "%b %d, %Y"
 markdown: kramdown
 
-baidu_analysis: 
+header_pages:
+  - index.html
+  - archives.html
+  - categories.html
+  - tags.html
 
+# Pagination setting
+paginate: 10

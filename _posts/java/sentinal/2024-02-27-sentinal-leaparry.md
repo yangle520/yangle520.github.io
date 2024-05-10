@@ -4,16 +4,8 @@ title:  Sentinal 滑动时间窗口算法
 date:   2024-02-27 00:00:00 +0800
 categories: 算法
 tag: 微服务组件
+author: YangLe
 ---
-
-
-
-* content
-{:toc}
-
-
-
-
 
 
 针对固定时间算法会在临界点存在瞬间大流量冲击的场景，滑动时间窗口算法应运而生
@@ -70,13 +62,13 @@ class MetricBucket {
 
 ### 调用链路
 
- ![sentinel调用链路]({{ '/styles/images/sentinal/27688228-70f696cfddf3f1c5.webp' | prepend: site.baseurl  }})
+ ![sentinel调用链路]({{ '/images/sentinal/27688228-70f696cfddf3f1c5.webp' | prepend: site.baseurl  }})
 
 ### 限流逻辑
 
- ![sentinel调用链路]({{ '/styles/images/sentinal/27688228-2c51c0d8e7eb4914.webp' | prepend: site.baseurl  }})
+ ![sentinel调用链路]({{ '/images/sentinal/27688228-2c51c0d8e7eb4914.webp' | prepend: site.baseurl  }})
 
- ![sentinel调用链路]({{ '/styles/images/sentinal/27688228-59754ca08bf8f2d7.webp' | prepend: site.baseurl  }})
+ ![sentinel调用链路]({{ '/images/sentinal/27688228-59754ca08bf8f2d7.webp' | prepend: site.baseurl  }})
 
 ### 核心代码
 

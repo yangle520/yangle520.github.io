@@ -4,6 +4,7 @@ title:  commons-io
 date:   2024-03-13 00:00:00 +0800
 categories: Apache Commons
 tag: java类库
+author: YangLe
 ---
 
 
@@ -28,7 +29,7 @@ Apache Commons IO库主要提供以下几个方面的功能
 
 
 
-![图片]({{ '/styles/images/java/IO.png' | prepend: site.baseurl }})
+![图片]({{ '/images/java/IO.png' | prepend: site.baseurl }})
 
 
 

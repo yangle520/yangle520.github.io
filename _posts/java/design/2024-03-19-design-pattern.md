@@ -4,10 +4,8 @@ title:  Java设计模式
 date:   2024-03-19 00:00:00 +0800
 categories: 系统设计
 tag: 系统设计
+author: YangLe
 ---
-
-
-
 
 
 
@@ -85,7 +83,7 @@ tag: 系统设计
 
 ### 设计模式间的关系
 
-![图片]({{ '/styles/images/java/设计模式.png' | prepend: site.baseurl }})
+![图片]({{ '/images/java/设计模式.png' | prepend: site.baseurl }})
 
 
 

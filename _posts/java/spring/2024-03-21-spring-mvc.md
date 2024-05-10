@@ -4,19 +4,15 @@ title:  Spring MVC
 date:   2024-03-21 00:00:00 +0800
 categories: 系统设计
 tag: 系统设计
+author: YangLe
 ---
-
-* content
-{:toc}
-
-
 
 
 ## MVC 的体系结构和工作原理
 
 MVC 是软件工程中的一种软件架构模式，主要应用于传统的 C/S 体系架构中。MVC 把软件系统分为三个基本部分：模型（Model）、视图（View）和控制器（Controller），其基本部分是协同工作而又相互独立的，在最大程度上实现了组件的重用性和扩展性。
 
-![图片]({{ '/styles/images/java/MVC.jpg' | prepend: site.baseurl }})
+![图片]({{ '/images/java/MVC.jpg' | prepend: site.baseurl }})
 
 MVC体系结构实现了一种动态的程序设计，使对程序的修改、扩展、简化及某一部分的重用成为可能，对复杂度的简化也使程序结构更加直观，在分离自身基本部分的同时赋予了各个基本部分应有的功能。
 
@@ -59,7 +55,7 @@ MVC体系结构实现了一种动态的程序设计，使对程序的修改、�
 
 Web 应用程序是基于 HTTP 的，而 HTTP 的最大特点是使用短连接并且无状态，所以一个 Web 客户端程序与服务器的每次通信都通过一次完整的 HTTP 请求和响应来完成。在采用了 C/S 体系结构的 MVC 中，在视图注册的监听器可以监听模型数据的改变。但是，在采用了 B/S 体系结构的 MVC 中，模型数据的改变事件无法通知到视图层，因此，视图需要通过主动查询模型来获得最新数据
 
-![图片]({{ '/styles/images/java/webMVC.jpg' | prepend: site.baseurl }})
+![图片]({{ '/images/java/webMVC.jpg' | prepend: site.baseurl }})
 
 
 

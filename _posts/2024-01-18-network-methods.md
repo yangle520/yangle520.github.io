@@ -4,6 +4,7 @@ title:  通讯技术
 date:   2024-01-18 00:00:00 +0800
 categories: 网络
 tag: 学习
+author: YangLe
 ---
 
 
@@ -16,7 +17,7 @@ tag: 学习
 
 
 
-![通讯技术_距离带宽分布图]({{ '/styles/images/network/通讯技术_距离带宽分布图.png' | prepend: site.baseurl  }})
+![通讯技术_距离带宽分布图]({{ '/images/network/通讯技术_距离带宽分布图.png' | prepend: site.baseurl  }})
 
 
 
@@ -130,7 +131,7 @@ enhanced Machine-Type Communication，增强型机器类通信
 
 
 
-![eMTC和NB-IoT]({{ '/styles/images/network/eMTC和NB-IoT.png' | prepend: site.baseurl  }})
+![eMTC和NB-IoT]({{ '/images/network/eMTC和NB-IoT.png' | prepend: site.baseurl  }})
 
 
 

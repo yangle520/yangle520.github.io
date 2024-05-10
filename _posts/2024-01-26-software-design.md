@@ -4,11 +4,8 @@ title:  软件复杂度
 date:   2024-02-26 00:00:00 +0800
 categories: 系统设计
 tag: 读书
+author: YangLe
 ---
-
-
-* content
-{:toc}
 
 ## 复杂性
 

@@ -4,12 +4,8 @@ title:  Apache Commons HttpClient
 date:   2024-03-13 00:00:00 +0800
 categories: Apache Commons
 tag: java类库
+author: YangLe
 ---
-
-
-
-
-
 
 
 **Apache HttpClient** 组件是为扩展而设计的，同时提供对基本HTTP协议的强大支持。

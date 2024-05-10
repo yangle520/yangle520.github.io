@@ -4,9 +4,10 @@ title:  流媒体基础知识
 date:   2024-01-15 00:00:00 +0800
 categories: 智慧矿山
 tag: 学习
+author: YangLe
 ---
-* content
-{:toc}
+
+
 ## 存储介绍
 
 ### 流媒体数据存储问题
@@ -21,7 +22,7 @@ tag: 学习
 
 ### 存储介质
 
-![层次存储模型]({{ '/styles/images/层次存储模型.png' | prepend: site.baseurl  }})
+![层次存储模型]({{ '/images/层次存储模型.png' | prepend: site.baseurl  }})
 
 层次越高，性能越好；价格越高，存储量越小，持久性越差
 

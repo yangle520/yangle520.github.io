@@ -5,13 +5,8 @@ title:  Sentinal接入配置
 date:   2024-02-27 00:00:00 +0800
 categories: 微服务
 tag: 微服务组件
+author: YangLe
 ---
-
-
-
-* content
-{:toc}
-
 
 
 

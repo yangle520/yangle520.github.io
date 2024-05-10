@@ -3,14 +3,9 @@ layout: post
 title:  MyBatis 读写分离配置
 date:   2024-01-15 00:00:00 +0800
 categories: 框架
-tag: MyBatis 
+tag: MyBatis
+author: YangLe
 ---
-
-
-
-* content
-{:toc}
-
 
 ### 1、加入依赖
 

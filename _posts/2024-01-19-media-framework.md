@@ -4,10 +4,10 @@ title:  音视频处理
 date:   2024-01-16 00:00:00 +0800
 categories: 智慧矿山
 tag: 学习
+author: YangLe
 ---
 
-* content
-{:toc}
+
 ## 音视频处理框架
 
 ### OpenGL

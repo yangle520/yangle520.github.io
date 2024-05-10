@@ -3,15 +3,9 @@ layout: post
 title:  MyBatis-Plus介绍
 date:   2024-03-01 00:00:00 +0800
 categories: 框架
-tag: MyBatis 
+tag: MyBatis
+author: YangLe
 ---
-
-
-
-* content
-{:toc}
-
-
 
 
 MyBatis的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化开发、提高效率而生。
@@ -43,7 +37,7 @@ MySQL，Oracle，DB2，H2，HSQL，SQLite，PostgreSQL，SQLServer，Phoenix，G
 
 ### 框架结构
 
-![图片]({{ '/styles/images/mybatis/mybatis-plus-framework.jpg' | prepend: site.baseurl }})
+![图片]({{ '/images/mybatis/mybatis-plus-framework.jpg' | prepend: site.baseurl }})
 
 
 
