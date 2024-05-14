@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  物联网平台
-date:   2024-01-17 00:00:00 +0800
+date:   2024-01-17 00:00:00
 categories: 智慧矿山
-tag: 学习
+tag: 系统设计
 author: YangLe
 ---
 
