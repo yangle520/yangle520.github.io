@@ -1,0 +1,42 @@
+软件质量体系白皮书	https://app.ma.scrmtech.com/resources/ResourcePc/resourcePcInfo?pf_uid=7019_1254&pf_type=3&id=52631
+
+Shift-Left Testing	https://www.drdobbs.com/shift-left-testing/184404768
+测试左移实践		https://liuranthinking.com/
+测试左移			https://www.bylinzi.com/2023/06/06/testing-shift-left/?swcfpc=1
+
+
+QA in Production	https://martinfowler.com/articles/qa-in-production.html
+测试右移——生产环境下的QA	https://www.bylinzi.com/2016/06/13/qa-in-production/
+测试右移：QA与Ops通力合作打造反脆弱的软件系统	https://www.bylinzi.com/2018/10/15/qaops/
+测试右移：日志收集与监控	https://www.bylinzi.com/2020/11/30/testing-logging-monitoring/
+测试右移：缺陷分析如何帮助质量内建	https://www.bylinzi.com/2019/02/02/defect-analysis-helping-build-quality-in/
+
+敏捷测试的核心	https://www.bylinzi.com/2020/04/18/agile-testing-core/
+
+在一个“去QA化”的项目中，QA能做什么	https://mp.weixin.qq.com/s/bwo0xEdlSOeXHXr-96dG0w
+
+Test Pyramid	https://martinfowler.com/bliki/TestPyramid.html
+微服务测试的思考与实践	https://www.bylinzi.com/2018/06/28/microservices-testing/
+
+敏捷度量	https://mp.weixin.qq.com/s/khJRYAPhK5QP-2Bqi8YzwA
+开发效能度量指标	https://mp.weixin.qq.com/s/qxIs-FsbiPpMe465dUM56A
+质量度量之定量分析	https://qualityfocus.club/quantitative-analysis
+质量度量之定性分析	https://qualityfocus.club/qualitative-analysis
+怎样度量需求质量	https://qualityfocus.club/how-to-measure-quality-of-requirement
+验收标准到底是不是测试用例	https://qualityfocus.club/actc
+
+梳理需求全景	https://qualityfocus.club/user-story-map
+度量需求质量	https://qualityfocus.club/how-to-measure-quality-of-requirement
+测试左移：需求相关的质量保障	https://qualityfocus.club/shift-left
+
+博客
+	https://liuranthinking.com/
+	https://www.bylinzi.com/
+	https://qualityfocus.club/
+	
+软件开发中最大的浪费是返工
+	业务设计本身有误
+	Dev 对业务需求理解有误
+	Dev 编写代码有误等。
+	
+有些团队在需求评审之前，相关角色并未详细了解过需求，导致在评审时还需要对各个需求细节逐一讲解，造成大量时间浪费。需求评审会议通常作为产品开发的需求准入，是需要团队给予重视的。但需求评审的重点在于“评审”和“共识”，可以把对需求的阅读、初步理解和疑问在评审会议前完成，会议时重点澄清疑问、达成共识，而不必要在评审会上就需求的各种细节逐一讲解。
